@@ -2,7 +2,7 @@
 
 This repository contains training materials for the Tutorial "Bio-Image Analysis Code Generation" at the From Images To Knowledge (I2K) Conference (virtual) October 28th-30th 2024.
 
-It contains Jupyter Notebooks demonstrating [bia-bob](https://github.com/haesleinhuepf/bia-bob), an AI-based assistant for interacting with image data using large language models and for working on Bio-image Analysis tasks.
+It contains Jupyter Notebooks demonstrating [bia-bob](https://github.com/haesleinhuepf/bia-bob), an AI-based assistant for interacting with image data using large language models and for working on Bio-image Analysis tasks. If you plan to execute these notebooks during the session, it is recommended to setup a Conda environment as [explained here](https://scads.github.io/generative-ai-notebooks/00_setup/readme.html).
 
 Furthermore, you can [create an issue](https://github.com/haesleinhuepf/i2k2024-ai-code-generation/issues/new/choose) which will then be answered by [git-bob](https://github.com/haesleinhuepf/git-bob) an AI-assistant that runs inside Github.com's Continuous Integration infrastructure.
 
