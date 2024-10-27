@@ -9,9 +9,35 @@ Furthermore, you can [create an issue](https://github.com/haesleinhuepf/i2k2024-
 **Note:** When using bia-bob and git-bob, the data you provide, the images and the text you enter may be sent to [OpenAI](https://openai.com/)'s or [Anthropic](https://www.anthropic.com/api)'s online services where we use a large language model to answer your request. 
 Do not upload any data you cannot share openly. Also, do not enter any private or secret information.
 
+## Exercise 1: Testing bia-bob
+
+Open a new Jupyter notebook, run `import bia_bob` and in a new cell below enter this:
+
+```
+%%bob
+Please segment the nuclei in the `skimage.data.human_mitosis()` dataset using Voronoi-Otsu-Labeling.
+```
+
+Check if the code works. It should look approximately [like this](https://github.com/haesleinhuepf/i2k2024-ai-code-generation/blob/main/examples/voronoi-otsu-labeling1.ipynb).
+
+Afterwards, install [pyclesperanto](https://github.com/clEsperanto/pyclesperanto):
+```
+pip install pyclesperanto
+```
+
+Restart your kernel and ask the same question again. 
+It should then look [different](https://github.com/haesleinhuepf/i2k2024-ai-code-generation/blob/main/examples/voronoi-otsu-labeling2.ipynb).
+
+## Exercise 2: Testing git-bob
+
+Create a new issue [here](https://github.com/haesleinhuepf/i2k2024-ai-code-generation/issues/new/choose). It's your choice if you ask a [bio-image analysis question](https://github.com/haesleinhuepf/i2k2024-ai-code-generation/issues/2) or for a [fun story for kids](https://github.com/haesleinhuepf/i2k2024-ai-code-generation/issues/3).
+
+![](screenshot.png)
+
+
 ## Feedback welcome
 
-If you tried git-bob on your own, you also directly provide feedback to the AI-assistant by [opening an issue on its repository](i2k2024-ai-code-generation).
+If you would like to provide feedback or have a question, please open a thread on https://image.sc and tag @haesleinhuepf.
 
 ## Acknowledgements
 
